@@ -75,10 +75,15 @@ You can test the application with the following steps:
 
 ✅ Signup / Login
 Visit http://localhost:3000/signup
+
 Create a test student account:
+
 Name: Test Student
+
 Email: test@example.com
+
 Password: 123456
+
 Login at http://localhost:3000/login
 
 🔐 Protected Pages
