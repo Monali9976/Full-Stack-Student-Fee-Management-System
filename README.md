@@ -54,7 +54,9 @@ npm install
 
 📝 Create a .env file:
 PORT=5000
+
 MONGO_URI=mongodb://localhost:27017/student-fees
+
 JWT_SECRET=your_jwt_secret
 
 Start backend:
@@ -88,11 +90,15 @@ Login at http://localhost:3000/login
 
 🔐 Protected Pages
 Once logged in:
+
 Visit /profile to view and edit student details
+
 If fees are not paid, click Pay Fees to simulate payment
+
 Navigate to /payment → see dummy card info → click Pay Now
 
 📋 View All Students
 Visit /students
+
 You’ll see the list of all registered students and their current Fees Paid status
 
